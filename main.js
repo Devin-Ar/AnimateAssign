@@ -10,6 +10,8 @@ ASSET_MANAGER.downloadAll(() => {
 	const canvas = document.getElementById("gameWorld");
 	const ctx = canvas.getContext("2d");
 
+    ctx.imageSmoothingEnabled = false;
+
     const heroSheet = ASSET_MANAGER.getAsset(spriteData.url);
 
     const myHero = new Animated(gameEngine, 100, 100, heroSheet, spriteData);

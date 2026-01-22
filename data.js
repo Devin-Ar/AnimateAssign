@@ -1,13 +1,17 @@
 const DATA = {
     "spritesheets": {
         "hero_sheet": {
-            "url": "hero_sheet.png",
+            "url": "umazing.png",
             "frames": {
-                "h_idle_1": { "x": 0, "y": 0, "w": 32, "h": 32 },
-                "h_idle_2": { "x": 32, "y": 0, "w": 32, "h": 32 }
+                "h_run_1": { "x": 0, "y": 0, "w": 64, "h": 64 },
+                "h_run_2": { "x": 64, "y": 0, "w": 64, "h": 64 },
+                "h_run_3": { "x": 128, "y": 0, "w": 64, "h": 64 },
+                "h_run_4": { "x": 0, "y": 64, "w": 64, "h": 64 },
+                "h_run_5": { "x": 64, "y": 64, "w": 64, "h": 64 },
+                "h_run_6": { "x": 128, "y": 64, "w": 64, "h": 64 }
             },
             "animations": {
-                "idle": ["h_idle_1", "h_idle_2"]
+                "run": ["h_run_1", "h_run_2", "h_run_3", "h_run_4", "h_run_5", "h_run_6"]
             }
         }
     }
